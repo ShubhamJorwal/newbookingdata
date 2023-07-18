@@ -1,0 +1,416 @@
+#servicesForSal #TopHeader {
+  position: fixed !important;
+  width: 100%;
+  height: 12vh;
+  left: 0px;
+  top: 0px;
+  z-index: 1 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#13c4d2), to(#048aa3));
+  background: linear-gradient(180deg, #13c4d2 0%, #048aa3 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 100px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#servicesForSal #TopHeader div > svg {
+  font-size: 2rem;
+  color: white;
+  margin: 1.7rem auto;
+  margin-left: 3rem;
+}
+
+#servicesForSal #TopHeader #lastRes {
+  margin-right: 7vw;
+}
+
+#servicesForSal #TopHeader h1 {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 1.7rem auto !important;
+  margin-right: 3vw;
+  color: white;
+  font-weight: 300;
+}
+
+#servicesForSal #midcomp {
+  margin-top: 10vh !important;
+  position: fixed;
+  width: 623px;
+  margin: auto;
+  background-color: white;
+  width: 100% !important;
+}
+
+#servicesForSal #midcomp h3 {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#servicesForSal #midcomp #SecCompForServices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#servicesForSal #midcomp #SecCompForServices div {
+  width: 191px;
+  height: 118px;
+  margin: 1rem;
+  border: 2px solid #d8dfee;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#servicesForSal #midcomp #SecCompForServices div span {
+  width: 64px;
+  height: 64px;
+  background-color: #b5f1f4;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#servicesForSal #midcomp #SecCompForServices div p {
+  color: black;
+}
+
+#servicesForSal #midcomp #SecCompForServices #FeMaleService {
+  background-color: #048ba4;
+}
+
+#servicesForSal #midcomp #SecCompForServices #FeMaleService p {
+  color: white;
+}
+
+#servicesForSal #centerIconOnser {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#servicesForSal #servicesoptions {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 10vw;
+  padding-top: 0;
+}
+
+#servicesForSal #servicesoptions div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #048aa3;
+  margin: 1rem 30px;
+  padding: 0.6rem 0.7rem;
+  border-radius: 12px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  width: 281px;
+  height: 104px;
+  max-width: 100%;
+  height: auto;
+}
+
+#servicesForSal #servicesoptions div img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+
+#servicesForSal #servicesoptions div p {
+  color: black;
+  font-weight: 600;
+  margin-left: 1.8rem;
+  font-size: 18px;
+}
+
+#servicesForSal #servicesoptions div:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  background-color: #016f822d;
+}
+
+#thirdcomp {
+  margin-top: calc(10vh + 3rem + 2rem + 118px + 3rem);
+}
+
+#servicesForSal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#servicesoptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  width: 623px;
+}
+
+#servicesoptions div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1vw;
+  cursor: pointer;
+}
+
+.service-details-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  overflow: hidden;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.service-details.slide-in {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.service-details {
+  width: 100%;
+  max-height: 86vh;
+  overflow-y: auto;
+  padding: 16px;
+  background-color: #ffffff5b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  border-radius: 10% 10% 0 0;
+  position: fixed;
+  top: 14vh;
+}
+
+.service-details #topLayerForSerBook {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 644px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-details #topLayerForSerBook #middledataforserbook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.service-details #topLayerForSerBook #middledataforserbook h3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 0.5rem;
+}
+
+.service-details #topLayerForSerBook #middledataforserbook h2 {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31px;
+}
+
+.service-details #topLayerForSerBook div > svg {
+  font-size: 2.5rem;
+  color: red;
+}
+
+.service-details #servicesList {
+  cursor: pointer;
+  width: 644px;
+  border: 1px solid #afafaf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin: 2rem;
+}
+
+.service-details #servicesList p {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.slide-in-animation {
+  -webkit-animation: slideIn 0.3s ease-in-out;
+          animation: slideIn 0.3s ease-in-out;
+}
+
+#lastbtnofserviceadd {
+  background-color: white;
+  width: 100%;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.book-button {
+  background-color: #18959E;
+  color: #ffffff;
+  padding: 18px 116px;
+  border-radius: 12px;
+  text-decoration: none;
+  width: 644px;
+  text-align: center;
+  border: none;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+#middleFetchedData {
+  margin-bottom: 5rem;
+  height: auto;
+  overflow: scroll;
+}
+
+#middleFetchedData .pricetag.selected {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  background-color: rgba(1, 111, 130, 0.176471);
+  color: black;
+}
+
+#HeadingForSubcateg {
+  width: 644px;
+  margin: auto;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #18959E;
+}
+/*# sourceMappingURL=services.css.map */

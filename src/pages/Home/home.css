@@ -1,0 +1,296 @@
+#StartBook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+#StartBook #dividerforinhm {
+  width: 458px;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#StartBook #dividerforinhm input {
+  width: 215px;
+  margin: 0;
+}
+
+#StartBook svg {
+  position: relative;
+  width: 371px;
+  height: 188px;
+  margin: auto;
+  margin-top: 108px;
+}
+
+#StartBook #suggestionsBox {
+  position: relative;
+  width: 624px;
+  padding: 3rem 0;
+  margin: auto;
+  background: #ffffff;
+  border: 2px solid #016e82;
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#StartBook #suggestionsBox h2 {
+  font-family: "Camaro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#StartBook #suggestionsBox form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+#StartBook #suggestionsBox form input {
+  margin: 0 83px;
+  width: 458px;
+  height: 49px;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #9e9e9e;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.25);
+          box-shadow: 1px 1px 2px 1px rgba(116, 116, 116, 0.25);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+#StartBook #suggestionsBox form button {
+  width: 458px;
+  height: 49px;
+  margin: auto;
+  border-radius: 174px;
+  margin: 1rem auto;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  background-color: #18959e;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+#StartBook #suggestionsBox form button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: white;
+  border: 1px solid #016e82;
+  color: #016e82;
+}
+
+#StartBook #suggestionsBox form button:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background: #016e82;
+  color: white;
+}
+
+#StartBook #suggestionsBox form #orbackfcre {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#StartBook #suggestionsBox form ul {
+  position: fixed;
+  background: #b0eff3;
+  list-style: none;
+  border-radius: 12px;
+  margin: 0 43px;
+  margin-top: 2rem;
+  right: 0;
+}
+
+#StartBook #suggestionsBox form ul span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#StartBook #suggestionsBox form ul span li {
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#StartBook #suggestionsBox form ul span:hover {
+  background: #86d7e4;
+}
+
+#StartBook #error_message {
+  border: none;
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.3rem;
+  margin: 1.5rem auto;
+}
+
+#StartBook #newusercreate {
+  border: none;
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.3rem;
+  margin: 0.5rem auto;
+}
+
+#StartBook #SignUp {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: unset;
+  border: none;
+  margin: 1rem auto;
+  border-radius: 100px;
+}
+
+#StartBook #SignUp button {
+  width: 458px;
+  border-radius: 100px;
+  border: none;
+  height: 49px;
+  background-color: #18959e;
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+#StartBook #SignUp button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: white;
+  border: 1px solid #016e82;
+  color: #016e82;
+}
+
+#StartBook #SignUp button:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background: #016e82;
+  color: white;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.suggestions {
+  list-style: none !important;
+  width: 458px;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  margin: 0.1vw auto;
+}
+
+.suggestions li {
+  border-bottom: 1px solid #cccccc;
+  padding: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 30%;
+  padding-left: 5%;
+}
+
+.suggestions li:hover {
+  background: #016f821c;
+}
+
+.input-container .suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  padding: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 4px;
+}
+
+.input-container .suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.input-container .suggestion-item:hover {
+  background-color: #f2f2f2;
+}
+/*# sourceMappingURL=home.css.map */
