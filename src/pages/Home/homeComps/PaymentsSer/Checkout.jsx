@@ -659,7 +659,7 @@ const Checkout = () => {
             <div id="totalwithgst">
               <div id="totalwithgstF1">
                 <div>
-                  <p style={{ flexBasis: "50%" }}>Sub Total</p>
+                  <p style={{ flexBasis: "100%" }}>Sub Total :</p>
                   <p style={{ flexBasis: "50%" }}>
                     {(Math.round(
                       (parseFloat(calculateTotalPrice()) +
@@ -694,7 +694,7 @@ const Checkout = () => {
 
                 <div id="">
                   {/* <p> */}
-                    <span style={{ flexBasis: "50%" }}>STotal GST</span>
+                    <span style={{ flexBasis: "100%" }}>STotal GST :</span>
                     <span style={{ flexBasis: "50%" }}>
                       {(
                         selectedProducts.reduce(
