@@ -422,34 +422,37 @@
       object-fit: cover;
     }
     #servicesoptions {
-      zoom: 50%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      padding: 10vw;
+      padding: 15vw;
       padding-top: 0;
+
       div {
         display: flex;
         align-items: center;
         border: 1px solid #048aa3;
-        margin: 1rem 30px;
-        padding: 0.6rem 0.7rem;
+        // margin: 1rem 30px;
+        padding: 1.6vw 1.7vw;
         border-radius: 12px;
         transition: 0.3s all;
-        width: 281px;
-        height: 104px;
+        width: 40vw;
+        // height: 10vw;
         max-width: 100%;
         height: auto;
+        overflow: scroll;
+        word-wrap: break-word;
+        margin: 1.5vw 3vw;
         img {
-          width: 80px;
-          height: 80px;
+          width: 12vw;
+          height: 12vw;
           object-fit: cover;
-          border-radius: 12px;
+          border-radius: 2vw;
         }
         p {
           color: black;
           font-weight: 600;
           margin-left: 4vw;
-          font-size: 5vw;
+          font-size: 2.5vw;
         }
 
         &:hover {
@@ -552,7 +555,7 @@
         }
       }
       div > svg {
-        font-size: 6vw ;
+        font-size: 6vw;
         color: red;
       }
       img {
@@ -613,7 +616,7 @@
   .book-button {
     background-color: #18959e;
     color: #ffffff;
-    padding: 4vw ;
+    padding: 4vw;
     border-radius: 12px;
     text-decoration: none;
     width: 100vw !important;
