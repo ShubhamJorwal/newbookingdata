@@ -740,7 +740,7 @@ const Checkout = () => {
             {/* Slider content */}
             <div className="content">
               <div className="service-details">
-                <div id="topLayerForSerBook">
+                <div id="topLayerForSerBook" className="TopLayerNew2">
                   <div id="middledataforserbook"></div>
                   <h1>Stylists</h1>
                   <div className="back-button" onClick={handleCrossClick}>
@@ -809,7 +809,7 @@ const Checkout = () => {
                   height: "inherit",
                 }}
               >
-                <div id="topLayerForSerBook">
+                <div id="topLayerForSerBook" className="TopLayerNew2">
                   <div id="middledataforserbook"></div>
                   <h1>Product List</h1>
                   <div className="back-button" onClick={handleCrossClick}>
